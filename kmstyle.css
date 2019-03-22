@@ -67,8 +67,8 @@ a:hover{
     #kmsearch{
         padding-left: 17px;
         height: 5vh;
-        width: 70vmin;
-        max-width: 350px;
+        width: 70vw;
+        max-width: 300px;
     }
     #kmsubmit{
         width: 17vw;
