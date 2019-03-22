@@ -1,5 +1,5 @@
 @media screen and (orientation: landscape) {
-    html{
+    nav, footer{
         opacity:0;
     }
 }
