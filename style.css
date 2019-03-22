@@ -1,3 +1,8 @@
+@media screen and (orientation: landscape) {
+    html{
+        opacity:0;
+    }
+}
 body{
     color: #707070;
 }
