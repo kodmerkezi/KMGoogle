@@ -28,7 +28,7 @@ a:hover{
     margin-top: 19px;
     margin-bottom: 23px;
     height: 6vh;
-    width: 25vw;
+    width: 39vw;
     min-width: 430px;
     border: 1px solid #dcdcdc;
     border-radius: 21px;
@@ -67,7 +67,7 @@ a:hover{
     #kmsearch{
         padding-left: 17px;
         height: 5vh;
-        width: 80vw;
+        width: 70vw;
         max-width: 350px;
     }
     #kmsubmit{
