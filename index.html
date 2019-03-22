@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">        
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" integrity="sha384-DmABxgPhJN5jlTwituIyzIUk6oqyzf3+XuP7q3VfcWA2unxgim7OSSZKKf0KSsnh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/kmstyle.css">
+    <title>KMGoogle</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-white bg-white">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gmail</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Images</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">More</a>
+          </li>
+        </ul>
+    </nav>
+    <div class="container-fluid">
+        <div>
+            <img src="src/km.png" id="kmlogo" alt="KM">
+            <form role="search" action="https://www.google.com/search" method="get">
+                <input id="kmsearch" class="kminput" type="text" name="q" maxlength="1024" title="Search">
+                <input id="kmsubmit" class="kminput" type="submit" value="Search">
+            </form>
+        </div>
+    </div>
+    <footer class="fixed-bottom text-center bg-light align-middle py-4">KodMerkezi - 2017</footer>
+</body>
+</html>
